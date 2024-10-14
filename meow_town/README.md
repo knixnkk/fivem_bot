@@ -25,7 +25,7 @@ pip install opencv-python numpy mss pywinauto pydirectinput
 - **Real-Time Display**: A window shows the screen capture with real-time tracking, and the script will continue until you press q to quit.
 
 ## How to Use
-- **Setup**: Ensure the game Meow Town Roleplay is running.
+- **Setup**: Ensure the game Meow Town Roleplay is running. and set resolution of fivem to **800x600**
 - **Run the Script**: Execute the Python script:
 
 ```bash
@@ -46,3 +46,6 @@ python main.py
 
 *The script assumes the game window title contains "MEOW TOWN ROLEPLAY". If the window title is different, you will need to adjust the regex in Application().connect and window() functions.*
 *The game must be visible and not minimized for the script to work properly.*
+
+## Demo
+![](http://i.imgur.com/60bts.gif)
