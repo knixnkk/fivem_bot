@@ -25,7 +25,7 @@ pip install opencv-python numpy mss pywinauto pydirectinput
 - *FPS Display*: The script calculates and prints the frame rate (frames per second) to help monitor the script's performance.
 - *Real-Time Display*: A window shows the screen capture with real-time tracking, and the script will continue until you press q to quit.
 
-##How to Use
+## How to Use
 - *Setup*: Ensure the game Meow Town Roleplay is running.
 - *Run the Script*: Execute the Python script:
 
