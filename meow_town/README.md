@@ -1,6 +1,9 @@
 # Overview
 *This Python script automates interactions in the game Meow Town Roleplay by detecting a specific in-game image (hook icon) and pressing the space key when certain conditions are met. It uses computer vision techniques to match the template image with the screen content and checks pixel colors around the detected object. When a match is found, the script simulates a key press to perform actions in the game.*
 
+## Preview
+![](http://i.imgur.com/60bts.gif)
+
 ## Requirements
 - **opencv-python (cv2)**: For image processing and template matching.
 - **numpy**: For efficient array operations and pixel analysis.
@@ -47,5 +50,3 @@ python main.py
 *The script assumes the game window title contains "MEOW TOWN ROLEPLAY". If the window title is different, you will need to adjust the regex in Application().connect and window() functions.*
 *The game must be visible and not minimized for the script to work properly.*
 
-## Demo
-![](http://i.imgur.com/60bts.gif)
